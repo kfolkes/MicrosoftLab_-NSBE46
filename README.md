@@ -1,4 +1,4 @@
-# NSBE 46 💻 - Azure Web Apps for Containers 📦💙 
+# NSBE 46 💻 | Azure Web Apps for Containers 📦💙 
 
 ### Repository Contents 
 
