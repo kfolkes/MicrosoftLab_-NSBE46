@@ -1,4 +1,15 @@
-# MicrosoftLab_NSBE46
+# NSBE46 💻 - Azure Web Apps for Containers 📦💙 
+
+### Repository Contents 
+
+| Files             |  Content                                   |
+|----------------------|--------------------------------------------|
+| `Dockerfile`           | Python 3.6 Alpine Base image installing pipenv, yarn, ssh, & vue cli             |
+| `sshd_config`       | OpenSSH SSH daemon configuration file                       |
+| `init_container.sh`               | Initalization Script to start SSH, setup enviorment with yarn, venv & start server using gunicorn with logging enabled                                 |
+| `dev.py/prod.py`       | Enabled debug level logging & configured database engine within prod since gunicorn targets prod.py by default                  |
+
+SSH Reference: https://docs.microsoft.com/bs-latn-ba/Azure/app-service/containers/configure-custom-container#enable-ssh
 
 Using Docker Hub + App Services 
 The purpose of this Lab is to have an understanding of how to: 
